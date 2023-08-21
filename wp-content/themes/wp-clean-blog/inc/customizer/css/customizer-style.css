@@ -1,0 +1,98 @@
+/**
+* Custom Css for backend 
+*
+* @package WP Clean Blog
+*/
+#clean-blog-img-container li {
+    padding: 3px;
+}
+#clean-blog-img-container .clean-blog-radio-img-selected {
+    border: 3px solid #dd3333;
+}
+
+/**
+* Custom Css for backend 
+*
+* Repeater Text 
+* 
+*/
+.customize-control-repeater-text .repeater-text-fields .set {
+    margin-bottom: 5px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.customize-control-repeater-text .repeater-text-fields input {
+    margin-bottom: 5px!important;
+}
+
+.customize-control-repeater-text .btn-remove-field {
+    color: red;
+    position: absolute;
+    right: -7px;
+    top: 3px;
+}
+
+.customize-control-repeater-text .btn-remove-field span {
+    text-decoration: none;
+}
+
+.customize-control-repeater-text .btn-remove-field:active,
+.customize-control-repeater-text .btn-remove-field:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input[type="range"] {
+    width: 100%;
+    background-color: #033b62;
+    -webkit-appearance: none;
+    height: 3px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.customize-control-radio-image #clean-blog-img-container {
+    display: flex;
+    align-items: center;
+}
+
+.customize-control-title {
+    margin-bottom: 10px;
+}
+
+.customize-control {
+    padding: 15px;
+    width: 88%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+}
+
+.control-section .accordion-section-title, 
+.customize-pane-child .accordion-section-title {
+    padding: 12px 10px 12px 15px;
+}
+
+input[type=color], 
+input[type=date], 
+input[type=datetime-local], 
+input[type=datetime], 
+input[type=email], 
+input[type=month], 
+input[type=number], 
+input[type=password], 
+input[type=search], 
+input[type=tel], 
+input[type=text], 
+input[type=time], 
+input[type=url], 
+input[type=week], 
+select {
+    height: 40px;
+    padding: 15px;
+}
+
+textarea {
+    padding: 15px;
+}
