@@ -20,7 +20,20 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
+	</div>
+	<div class="entry-prefooter">
+	    <div class="acf-title2">
+	        <h4>
+	            <?php the_field('title_2'); ?>
+	        </h4>
+	    </div>
+	    <div class="acf-description2">
+	        <p>
+	            <?php the_field('description_2'); ?>
+	        </p>
+	    </div>
+	</div>
+	<!-- .entry-content -->
 	<?php clean_blog_posts_tags(); ?>
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
