@@ -17,6 +17,19 @@
 	                <?php clean_blog_posted_on(); ?>
 	            </div><!-- .entry-meta -->
             </div><!-- .featured-image -->
+            <div class="featured-image-add">
+                <div class="acf-title2">
+                    <h4>
+                        <?php the_field('title_2'); ?>:
+                    </h4>
+                </div>
+                <div class="acf-description2">
+                    <p>
+                        <?php the_field('description_2'); ?>
+                    </p>
+                </div>
+            </div>
+
 		<?php } ?>
 
 		<div class="entry-container">
