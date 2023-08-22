@@ -7,6 +7,12 @@ DB_USER: wordpress
 DB_PASSWORD: wordpress
 
 
-admin
 
-CJCtFl4CFxX@aqldo@
+
+# user: password
+
+admin: CJCtFl4CFxX@aqldo@
+
+writer: writer-writer
+
+editor: editor-editor
